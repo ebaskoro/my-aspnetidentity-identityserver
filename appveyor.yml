@@ -22,11 +22,11 @@ test_script:
 
 notifications:
   - provider: Webhook
-    url: https://webhooks.gitter.im/e/c0f1a9403568c24a0ce7
+    url: https://webhooks.gitter.im/e/7344fc3ae568754df0bd
     method: POST
     on_build_success: true
     on_build_failure: true
     on_build_status_changed: true
 
   - provider: Slack
-    incoming_webhook: https://hooks.slack.com/services/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
+    incoming_webhook: https://hooks.slack.com/services/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
